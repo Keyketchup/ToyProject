@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\김지후\\Dropbox\\내 PC (DESKTOP-2SHVNE4)\\Desktop\\Coding\\StudentManager\\StudentManager.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\김지후\\Dropbox\\내 PC (DESKTOP-2SHVNE4)\\Desktop\\Coding\\StudentManager\\StudentManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\김지후\\Dropbox\\내 PC (DESKTOP-2SHVNE4)\\Desktop\\Coding\\StudentManager\\StudentManager.csproj",
+        "projectName": "StudentManager",
+        "projectPath": "C:\\Users\\김지후\\Dropbox\\내 PC (DESKTOP-2SHVNE4)\\Desktop\\Coding\\StudentManager\\StudentManager.csproj",
+        "packagesPath": "C:\\Users\\김지후\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\김지후\\Dropbox\\내 PC (DESKTOP-2SHVNE4)\\Desktop\\Coding\\StudentManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\김지후\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
